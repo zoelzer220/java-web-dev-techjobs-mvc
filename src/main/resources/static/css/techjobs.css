@@ -29,9 +29,19 @@ table.job-listing {
     width: 80%;
 }
 
-table.job-listing td:first-child {
+/*table.job-listing td:first-child {
     font-weight: bold;
 }
+*/
+
+span {
+    font-style: italic;
+}
+
+th:text {
+    font-style: italic;
+}
+
 
 table.job-listing td:last-child {
     width: 80%;

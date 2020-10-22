@@ -13,12 +13,12 @@
     <table class="job-listing">
         <tr th:each="job : ${jobs}">
             <td>
-                <p th:text="'ID: ' + ${job.id}"></p>
-                <p th:text="'Name: ' + ${job.name}"></p>
-                <p th:text="'Employer: ' + ${job.employer}"></p>
-                <p th:text="'Location: ' + ${job.location}"></p>
-                <p th:text="'Position Type: ' + ${job.positionType}"></p>
-                <p th:text="'Core Competency: ' + ${job.coreCompetency}"></p>
+                <p><b>ID:</b> <span th:text="${job.id}"></span></p>
+                <p><b>Name:</b> <span th:text="${job.name}"></span></p>
+                <p><b>Employer:</b> <span th:text="${job.employer}"></span></p>
+                <p><b>Location:</b> <span th:text="${job.location}"></span></p>
+                <p><b>Position Type:</b> <span th:text="${job.positionType}"></span></p>
+                <p><b>Core Competency:</b> <span th:text="${job.coreCompetency}"></span></p>
             </td>
         </tr>
     </table>
